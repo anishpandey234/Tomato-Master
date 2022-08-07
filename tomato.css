@@ -1,0 +1,46 @@
+
+h2{
+    font-family: "Press Start 2P", "consolas", "sans-serif";
+    color:red;
+}
+
+section{
+    background-color:white;
+}
+
+.form-check-input{
+    margin-left:10px;
+    
+}
+
+#card1{
+    border:2px solid rgb(65, 65, 65);    
+}
+
+#back{
+    width:8%;
+    height:8%;
+    z-index: +1;
+}
+
+#splat{
+    width: 500px;
+    height: 500px;
+    position:absolute;
+    place-items: center;
+    top: center;
+    z-index: +1;
+}
+
+input[type='checkbox'] {
+    width:30px;
+    height:30px;
+    background:white;
+    border-radius:5px;
+    border:2px solid rgb(65, 65, 65);
+}
+
+input[type='checkbox']:checked {
+    background-color: rgb(19, 162, 19);
+}
+
